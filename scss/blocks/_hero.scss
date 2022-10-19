@@ -1,0 +1,350 @@
+.hero {
+    background-image: url(/img/Bitmap\ \(2\).png);
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-left__title {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+    max-width: 500px;
+    padding-top: 153px;
+    padding-bottom: 40px;
+}
+
+.hero-left__text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    max-width: 500px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+
+}
+
+.hero__btn {
+    background: #FCB72B;
+    padding: 15px 30px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 100px;
+
+    &:hover {
+        background: #FFFFFF;
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+        padding: 14px 27px;
+        transition: 0.8s;
+
+    }
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    background: url(/img/Path\ 2.svg);
+    width: 180px;
+    height: 150px;
+    top: 445px;
+    background-repeat: no-repeat;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    background: url(/img/Group\ 8\ Copy\ \(2\).svg);
+    width: 450px;
+    height: 150px;
+    top: 445px;
+    left: 635px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        width: 100%;
+    }
+
+    .hero__section {
+        justify-content: center;
+    }
+
+    .hero__left {
+        justify-content: center;
+    }
+
+    .hero-left__title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-left__text {
+        text-align: center;
+        max-width: 663px;
+    }
+
+    .hero__section::before {
+        content: "";
+        position: absolute;
+        background: url(/img/Group\ 8\ Copy\ \(2\).svg);
+        width: 450px;
+        height: 150px;
+        top: 580px;
+        left: -100px;
+        background-repeat: no-repeat;
+    }
+
+    .hero::after {
+        display: none;
+    }
+
+    .hero::before {
+        display: none;
+    }
+
+    .hero__btn {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .hero {
+        width: 100%;
+    }
+
+
+    .hero-left__title {
+        max-width: 300px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .hero-left__text {
+        max-width: 411px;
+        margin: 0 auto;
+        margin-left: -68px;
+    }
+
+    .hero::after {
+        display: none;
+    }
+
+    .hero__section::before {
+        left: -279px;
+        margin-top: 45px;
+    }
+
+    .hero__btn {
+        margin-left: 110px;
+    }
+
+}
+
+
+// careers
+
+.hero_c {
+    max-width: 1440px;
+    margin: 100px auto;
+    padding-bottom: 100px;
+
+}
+
+
+.hero_c_careers {
+    background-image: url(/img/hero-img1.png);
+    max-width: 1440px;
+    height: 200px;
+    margin: 0 auto;
+    background-position: right;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+.hero-careers_c_title {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+    padding: 60px;
+    padding-left: 160px;
+
+}
+
+.hero-left_c_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.hero_c_title {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    max-width: 445px;
+    padding-bottom: 24px;
+}
+
+
+.hero_c_text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    max-width: 445px;
+    padding-bottom: 40px;
+}
+
+.hero_c_btn {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    padding: 15px 30px;
+
+    &:hover {
+        background: #FFFFFF;
+        border: 2px solid #FCB72B;
+        color: #FCB72B;
+    }
+}
+
+.hero_c_img {
+    border-radius: 360px;
+}
+
+
+
+
+.hero-left_c_right::before {
+    content: "";
+    position: absolute;
+    background: url(/img/hero-img3.svg);
+    width: 680px;
+    height: 150px;
+    right: 0;
+    margin-top: 300px;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        max-width: 768px;
+        padding-bottom: 45px;
+    }
+
+    .hero-left_c_right {
+        flex-direction: column-reverse;
+
+    }
+
+
+
+    .hero-left_c_right::before {
+        margin-bottom: 401px;
+    }
+
+    .hero_c_title {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .hero_c_text {
+        text-align: center;
+    }
+
+    .hero_c_btn {
+        margin-left: 150px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .hero_c {
+        max-width: 375px;
+    }
+
+    .hero_c_careers {
+        background-position: 0;
+    }
+
+    .hero-careers_c_title {
+        padding-left: 85px;
+    }
+
+    .hero-left_c_right {
+        margin-left: 20px;
+    }
+
+    .hero-left_c_right::before {
+        left: 0;
+        width: 355px;
+        margin-left: 20px;
+        margin-bottom: 482px;
+    }
+
+
+    .hero_c_btn {
+        margin-left: 90px;
+    }
+
+
+    .hero_c_left {
+        padding-right: 20px;
+    }
+
+    .hero_c_img {
+        width: 311px;
+        height: 311px;
+    }
+
+    .hero_c_right {
+        padding-right: 20px;
+    }
+
+
+    .hero_c_title {
+        max-width: 311px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+
+    .hero_c_text {
+        max-width: 311px;
+    }
+
+}

@@ -1,0 +1,166 @@
+.sign {
+    max-width: 1440px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(/img/Mask\ \(1\).png);
+    background-size: cover;
+}
+
+.sign__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign__left {
+    padding-top: 102px;
+}
+
+.sign-left__title {
+    max-width: 415px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+}
+
+.sign__right {
+    display: flex;
+    padding-top: 130px;
+}
+
+.sign-apps__store {
+    width: 145px;
+    height: 52px;
+
+}
+
+.sign-google__play {
+    width: 175px;
+    height: 51px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sign {
+        max-width: 768px;
+        padding-bottom: 20px;
+    }
+
+    .sign__section {
+        flex-direction: column;
+    }
+
+    .sign__left {
+        padding-top: 65px;
+    }
+
+    .sign-left__title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .sign__right {
+        padding: 35px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sign {
+        max-width: 375px;
+    }
+
+    .sign-left__title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .sign__right {
+        padding-right: 20px;
+        margin: -15px;
+    }
+}
+
+
+// careers
+
+
+.sign_c {
+    max-width: 1440px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(/img/sign-img2.png);
+    background-size: cover;
+}
+
+.sign_c_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-left_c_title {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    max-width: 415px;
+    padding-top: 100px;
+}
+
+.sign_c_right {
+    padding-top: 120px;
+}
+
+.sign-apps_c_store {
+    padding-right: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .sign_c {
+        max-width: 768px;
+        height: 450px;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .sign_c_section {
+        flex-direction: column;
+    }
+
+    .sign-left_c_title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sign_c {
+        max-width: 375px;
+        height: 350px;
+    }
+
+    .sign-left_c_title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .sign_c_right {
+        padding-top: 60px;
+    }
+
+    .sign_c_store {
+        width: 115px;
+        height: 40px;
+    }
+
+    .sign_c_play {
+        width: 130px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,10 @@
+.footer {
+    width: 1440px;
+    height: 96px;
+    margin: 0 auto;
+    background: #333A44;
+  }
+  
+  .footer__list {
+    display: flex;
+  }/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button,
+input,
+textarea,
+select,
+option {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+  max-width: 1135px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
